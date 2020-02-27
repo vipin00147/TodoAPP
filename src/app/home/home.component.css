@@ -5,21 +5,21 @@ font-size: medium;
 border-radius: 14px;
 }
 .col{
-    padding : .4em 1.3;
+    padding : .2em 1.3;
 }
 .component2{
     padding: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display:grid;
-    grid-template-columns: 50% auto;
-    font-size: 200%;
+    grid-template-columns: 70% auto;
+    font-size: 100%;
    
     border-radius: 10px;
 }
 input.text{
     border: 4px;
     padding:1em;
-    width: 400px;
+    width: 100px;
     margin-bottom: 2em;
     border-style: inset;
     border-radius: 12px;
@@ -28,7 +28,7 @@ input.text{
 input.btn{
     border: 4px;
     padding:12px;
-    width: 200px;
+    width: 100px;
     margin-bottom: 2em;
     border-style: inset;
     border-radius: 12px;
