@@ -1,0 +1,24 @@
+<div class="component2">
+    <div>
+    <p><b>Add Your task</b></p>
+    </div>
+    <div class="container">
+        <p><b>Number Of Tasks: {{itemcounter}}</b></p>
+    </div>
+</div>
+<div class="component2">
+    <div class="col">
+        <h2>*use this tool to add your to-do list also to remove</h2>
+        <form>
+            <input type="text" class="text" name="projectname" placeholder="Please add task here" [(ngModel)]="projecttext">
+            <br>
+            <input type="button" class="btn" value="Add task" (click)="additem()">
+        </form>
+    </div>
+    <div class="col">
+        <p class="project-container" *ngFor="let item of projects ; let i=index" (click)="removeitem(i)" title="click hee to remove">
+            {{item}}
+        </p>
+    </div> 
+</div>
+<p class="thanks">Made By Vipin Kumar</p>
